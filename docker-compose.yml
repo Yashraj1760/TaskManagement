@@ -1,0 +1,12 @@
+version: "27.1.1"
+services:
+  db:
+    image: mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: '1760'
+      ports:
+        -"3306:3306"
+
+
+
